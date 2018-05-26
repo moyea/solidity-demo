@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-server": "./node_modules/.bin/ganache-cli",
+    "basic": "node src/basic",
     "deploy": "node src/compile-and-deploy.js",
     "test-call-contract": "node src/call-exist-contract.js"
   },

@@ -1,3 +1,7 @@
+/**
+ * 编译部署一个合约
+ */
+
 const Web3 = require('web3');
 const fs = require('fs');
 const solc = require('solc');
