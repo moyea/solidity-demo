@@ -1,0 +1,25 @@
+{
+  "name": "solidity-demo",
+  "version": "1.0.0",
+  "description": "智能合约演示项目",
+  "main": "index.js",
+  "scripts": {
+    "test-server": "./node_modules/.bin/ganache-cli",
+    "deploy": "node src/compile-and-deploy.js",
+    "test-call-contract": "node src/call-exist-contract.js"
+  },
+  "keywords": [
+    "solidity",
+    "web3",
+    "solc"
+  ],
+  "author": "Qinghua <Qinghua1994@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.24",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.1.0"
+  }
+}
